@@ -14,8 +14,6 @@
     height: 4rem;
     background-color: rgb(74, 68, 165);
     border: 1px solid rgb(140, 140, 175);
-    
-    
 }
  
 .barra_navigazione{
@@ -72,9 +70,10 @@
 
 /*MAIN*/
 #app_main{
-    height: 150rem;
+    height: 210rem;
     background-color: white;
     border: 2px solid  rgb(52, 219, 19);
+
     
 }
 /*first BOX*/
@@ -87,7 +86,7 @@
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 15rem;
+    margin-top: 5rem;
 }
 
 .left-image_box{
@@ -111,7 +110,7 @@
     justify-content: flex-start;
 }
 /*second BOX*/
-.big_box-second{
+.big_box_second{
     height: 35rem;
     width: 80rem;
     background-color: rgb(219, 197, 197);
@@ -120,19 +119,10 @@
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
+    margin-top: 10rem;
 }
 
-.left-image_box-second{
-    height: 35rem;
-    width: 50rem;
-    background-color: rgb(238, 227, 126);
-    border: 2px solid rgb(52, 219, 19);
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-.right-text_box-second{
+.left-image_box_second{
     height: 35rem;
     width: 30rem;
     background-color: rgb(92, 180, 57);
@@ -142,4 +132,117 @@
     flex-direction: row;
     justify-content: flex-start;
 }
+.right-text_box_second{
+    height: 35rem;
+    width: 50rem;
+    background-color: rgb(238, 227, 126);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 /*third BOX*/
+.big_box_third{
+    height: 35rem;
+    width: 80rem;
+    background-color: rgb(219, 197, 197);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10rem;
+}
+
+.left-image_box_third{
+    height: 35rem;
+    width: 50rem;
+    background-color: rgb(238, 227, 126);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.right-text_box_third{
+    height: 35rem;
+    width: 30rem;
+    background-color: rgb(92, 180, 57);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+/*fourth BOX*/
+
+.big_box_fourth{
+    height: 60rem;
+    width: 80rem;
+    background-color: rgb(219, 197, 197);
+    border: 2px solid rgb(52, 219, 19);
+    margin: 10rem;
+}
+
+/*FOOTER*/
+#app_footer{
+    height: 60rem;
+    background-color: rgb(87, 83, 87);
+    border: 1px solid rgb(209, 209, 226);
+    padding-top: 5rem;
+
+}
+.up_footer{
+    height: 40rem;
+    width: 80rem;
+    background-color: rgb(211, 222, 231);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+.vertical_box_one{
+    height: 40rem;
+    width: 20rem;
+    background-color: rgb(238, 227, 126);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.vertical_box_prodotto,
+.vertical_box_compagnia,
+.vertical_box_risorse,
+.vertical_box_norme{
+    height: 40rem;
+    width: 15rem;
+    background-color: rgb(117, 5, 48);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: stretch;
+    flex-direction: left;
+    justify-content: flex-start;
+}
+
+.down_footer{
+    height: 20rem;
+    width: 80rem;
+    background-color: rgb(211, 222, 231);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    margin-top: 2rem;
+}
+
+/*display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;*/
