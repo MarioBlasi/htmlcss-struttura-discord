@@ -39,17 +39,29 @@
 
 /*NAV*/
 #app_nav{
-    height: 30rem;
+    height: 40rem;
     background-color: rgb(139, 134, 207);
     border: 1px solid rgb(209, 209, 226);
     
 }  
 .text_download{
-    height: 20rem;
-    width: 80rem;
+    height: 30rem;
+    width: 60rem;
     background-color: rgba(212, 41, 84, 0.301);
     border: 1px solid rgb(52, 219, 19);
-    margin: 1rem;
-    
-   
+    margin: 5rem;
+}
+
+/*MAIN*/
+#app_main{
+    height: 50rem;
+    background-color: white;
+    border: 2px solid  rgb(52, 219, 19);
+}
+.big_box{
+    height: 35rem;
+    width: 80rem;
+    background-color: rgb(219, 197, 197);
+    border: 2px solid rgb(52, 219, 19);
+    margin: 7rem;
 }
