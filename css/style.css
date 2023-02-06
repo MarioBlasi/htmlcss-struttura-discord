@@ -63,7 +63,6 @@
     height: 40rem;
     background-color:blue;
     border: 1px solid black;
-    
 }  
 .text_download{
     height: 30rem;
@@ -77,9 +76,13 @@
 #app_main{
     height: 210rem;
     background-color: white;
-    border: 2px solid  rgb(52, 219, 19);
+    border: 1px solid black;
 }
 /*first BOX*/
+.color_white_bg{
+    background-color: rgb(158, 243, 243);
+    padding-bottom: 5rem;
+}
 .big_box{
     height: 35rem;
     width: 80rem;
@@ -91,7 +94,6 @@
     justify-content: flex-start;
     margin-top: 5rem;
 }
-
 .left-image_box{
     height: 35rem;
     width: 50rem;
@@ -152,6 +154,10 @@
     justify-content: flex-start;
 }
 /*third BOX*/
+.color_white_bg_two{
+    background-color: rgb(158, 243, 243);
+    padding-bottom: 5rem;
+}
 .big_box_third{
     height: 35rem;
     width: 80rem;
@@ -186,6 +192,7 @@
 /*fourth BOX*/
 .color_grey_bg_two{
     background-color: lightgray;
+    padding-bottom: 5rem;
     
 }
 .big_box_fourth{
