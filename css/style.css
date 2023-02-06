@@ -15,6 +15,7 @@
     background-color: rgb(74, 68, 165);
     border: 1px solid rgb(140, 140, 175);
     
+    
 }
  
 .barra_navigazione{
@@ -23,19 +24,36 @@
     background-color: rgba(61, 212, 41, 0.301);
     border: 1px solid rgb(52, 219, 19);
     margin: 1rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    
 }
 .left_logo {
     height: 2rem;
     width: 15rem;
     background-color: rgb(124, 5, 65);
     border: 1px solid rgb(245, 83, 77);
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
 }
-/*.right_logo{
+.right_logo{
     height: 2rem;
     width: 15rem;
     background-color: rgb(43, 5, 24);
     border: 1px solid rgb(165, 133, 132);
-}*/
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
 
 /*NAV*/
 #app_nav{
@@ -54,14 +72,74 @@
 
 /*MAIN*/
 #app_main{
-    height: 50rem;
+    height: 150rem;
     background-color: white;
     border: 2px solid  rgb(52, 219, 19);
+    
 }
+/*first BOX*/
 .big_box{
     height: 35rem;
     width: 80rem;
     background-color: rgb(219, 197, 197);
     border: 2px solid rgb(52, 219, 19);
-    margin: 7rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 15rem;
 }
+
+.left-image_box{
+    height: 35rem;
+    width: 50rem;
+    background-color: rgb(238, 227, 126);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.right-text_box{
+    height: 35rem;
+    width: 30rem;
+    background-color: rgb(92, 180, 57);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+/*second BOX*/
+.big_box-second{
+    height: 35rem;
+    width: 80rem;
+    background-color: rgb(219, 197, 197);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.left-image_box-second{
+    height: 35rem;
+    width: 50rem;
+    background-color: rgb(238, 227, 126);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.right-text_box-second{
+    height: 35rem;
+    width: 30rem;
+    background-color: rgb(92, 180, 57);
+    border: 2px solid rgb(52, 219, 19);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+/*third BOX*/
