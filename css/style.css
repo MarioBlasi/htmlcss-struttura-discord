@@ -74,15 +74,14 @@
 
 /*MAIN*/
 #app_main{
-    height: 210rem;
     background-color: white;
     border: 1px solid black;
 }
 /*first BOX*/
-.color_white_bg{
+/*.color_white_bg{
     background-color: rgb(158, 243, 243);
     padding-bottom: 5rem;
-}
+}*/
 .big_box{
     height: 35rem;
     width: 80rem;
@@ -120,7 +119,7 @@
     padding-bottom: 5rem;
     
 }
-.big_box_second{
+.big_box{
     height: 35rem;
     width: 80rem;
     background-color: lightblue;
@@ -153,12 +152,12 @@
     flex-direction: row;
     justify-content: flex-start;
 }
-/*third BOX*/
-.color_white_bg_two{
+/*Third BOX*/
+/*.color_white_bg{
     background-color: rgb(158, 243, 243);
     padding-bottom: 5rem;
-}
-.big_box_third{
+}*/
+/*.big_box{
     height: 35rem;
     width: 80rem;
     background-color:white;
@@ -167,8 +166,8 @@
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 10rem;
-}
+    margin-top: 5rem;
+}*/
 .left-image_box_third{
     height: 35rem;
     width: 50rem;
@@ -189,8 +188,8 @@
     flex-direction: row;
     justify-content: flex-start;
 }
-/*fourth BOX*/
-.color_grey_bg_two{
+/*Fourth BOX*/
+.color_grey_bg{
     background-color: lightgray;
     padding-bottom: 5rem;
     
@@ -200,15 +199,14 @@
     width: 80rem;
     background-color: green;
     border: 2px solid black;
-    margin: 10rem;
+    margin-top: 5rem;
 }
 
 /*FOOTER*/
 #app_footer{
-    height: 60rem;
     background-color: rgb(87, 83, 87);
     border: 1px solid black;
-    padding-top: 5rem;
+    
 }
 /* UP FOOTER*/
 .up_footer{
@@ -220,7 +218,7 @@
     align-items: stretch;
     flex-direction: row;
     justify-content: flex-start;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 .vertical_box_one{
     height: 40rem;
