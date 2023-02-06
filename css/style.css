@@ -11,15 +11,15 @@
 /* HEADER */
 #app_header{
     height: 4rem;
-    background-color: rgb(74, 68, 165);
+    background-color: lightblue;
     border: 1px solid rgb(140, 140, 175);
 }
  
 .barra_navigazione{
     height: 2rem;
     width: 80rem;
-    background-color: rgba(61, 212, 41, 0.301);
-    border: 1px solid rgb(52, 219, 19);
+    background-color: white;
+    border: 1px solid dotted;
     margin: 1rem;
     display: flex;
     align-items: flex-start;
@@ -30,8 +30,8 @@
 .left_logo {
     height: 2rem;
     width: 20rem;
-    background-color: rgb(124, 5, 65);
-    border: 1px solid rgb(245, 83, 77);
+    background-color:yellow;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -40,8 +40,8 @@
 .center_logo{
     height: 2rem;
     width: 50rem;
-    background-color: rgb(5, 43, 21);
-    border: 1px solid rgb(22, 180, 8);
+    background-color: orange;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -50,8 +50,8 @@
 .right_logo{
     height: 2rem;
     width: 20rem;
-    background-color: rgb(43, 5, 24);
-    border: 1px solid rgb(165, 133, 132);
+    background-color: yellow;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -61,15 +61,15 @@
 /*NAV*/
 #app_nav{
     height: 40rem;
-    background-color: rgb(139, 134, 207);
-    border: 1px solid rgb(209, 209, 226);
+    background-color:blue;
+    border: 1px solid black;
     
 }  
 .text_download{
     height: 30rem;
     width: 60rem;
-    background-color: rgba(212, 41, 84, 0.301);
-    border: 1px solid rgb(52, 219, 19);
+    background-color: rgb(240, 111, 240);
+    border: 1px solid black;
     margin: 5rem;
 }
 
@@ -83,8 +83,8 @@
 .big_box{
     height: 35rem;
     width: 80rem;
-    background-color: rgb(219, 197, 197);
-    border: 2px solid rgb(52, 219, 19);
+    background-color:white;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -95,8 +95,8 @@
 .left-image_box{
     height: 35rem;
     width: 50rem;
-    background-color: rgb(238, 227, 126);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: lightblue;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -105,31 +105,37 @@
 .right-text_box{
     height: 35rem;
     width: 30rem;
-    background-color: rgb(92, 180, 57);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: pink;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
 }
-/*second BOX*/
+/*second BOX* --------------------color grey*/
+.color_grey_bg{
+    background-color: lightgray;
+    padding-bottom: 5rem;
+    
+}
 .big_box_second{
     height: 35rem;
     width: 80rem;
-    background-color: rgb(219, 197, 197);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: lightblue;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
     margin-top: 10rem;
+    
 }
 
 .left-image_box_second{
     height: 35rem;
     width: 30rem;
-    background-color: rgb(92, 180, 57);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: pink;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -138,8 +144,8 @@
 .right-text_box_second{
     height: 35rem;
     width: 50rem;
-    background-color: rgb(238, 227, 126);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: lightblue;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -149,8 +155,8 @@
 .big_box_third{
     height: 35rem;
     width: 80rem;
-    background-color: rgb(219, 197, 197);
-    border: 2px solid rgb(52, 219, 19);
+    background-color:white;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -160,8 +166,8 @@
 .left-image_box_third{
     height: 35rem;
     width: 50rem;
-    background-color: rgb(238, 227, 126);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: lightblue;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
@@ -170,19 +176,23 @@
 .right-text_box_third{
     height: 35rem;
     width: 30rem;
-    background-color: rgb(92, 180, 57);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: pink;
+    border: 1px solid black;
     display: flex;
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-start;
 }
 /*fourth BOX*/
+.color_grey_bg_two{
+    background-color: lightgray;
+    
+}
 .big_box_fourth{
     height: 60rem;
     width: 80rem;
-    background-color: rgb(219, 197, 197);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: green;
+    border: 2px solid black;
     margin: 10rem;
 }
 
@@ -190,7 +200,7 @@
 #app_footer{
     height: 60rem;
     background-color: rgb(87, 83, 87);
-    border: 1px solid rgb(209, 209, 226);
+    border: 1px solid black;
     padding-top: 5rem;
 }
 /* UP FOOTER*/
@@ -198,7 +208,7 @@
     height: 40rem;
     width: 80rem;
     background-color: rgb(211, 222, 231);
-    border: 2px solid rgb(52, 219, 19);
+    border: 1px solid black;
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -208,8 +218,8 @@
 .vertical_box_one{
     height: 40rem;
     width: 20rem;
-    background-color: rgb(238, 227, 126);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: pink;
+    border: 1px solid black;
     display: flex;
     align-items: stretch;
     flex-direction: row;
@@ -221,8 +231,8 @@
 .vertical_box_norme{
     height: 40rem;
     width: 15rem;
-    background-color: rgb(117, 5, 48);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: rgb(77, 196, 226);
+    border: 2px solid black;
     display: flex;
     align-items: stretch;
     flex-direction: left;
@@ -232,8 +242,8 @@
 .down_footer{
     height: 7rem;
     width: 80rem;
-    background-color: rgb(211, 222, 231);
-    border: 2px solid rgb(52, 219, 19);
+    background-color: rgb(147, 188, 221);
+    border: 2px solid black;
     display: flex;
     align-items: flex-start;
     flex-wrap: wrap;
